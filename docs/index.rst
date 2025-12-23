@@ -1,7 +1,7 @@
 pytket-pysimplex
 ==================================
 
-`Pysimplex <https://github.com/CQCL/simplex>`_ is a Clifford simulator optimized
+`Pysimplex <https://github.com/Quantinuum/simplex>`_ is a Clifford simulator optimized
 for large sparse circuits.
 
 ``pytket-pysimplex`` is an extension to ``pytket`` that allows ``pytket``
@@ -21,5 +21,5 @@ and Windows. To install, run:
 .. toctree::
    :caption: Useful links
 
-   Issue tracker <https://github.com/CQCL/pytket-pyzx/issues>
+   Issue tracker <https://github.com/Quantinuum/pytket-pyzx/issues>
    PyPi <https://pypi.org/project/pytket-pyzx/>

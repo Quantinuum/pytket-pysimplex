@@ -15,7 +15,7 @@ Some useful links:
 
 ## Getting started
 
-`pytket-pysimplex` is compatible with Python versions 3.10 to 3.13 on Linux, MacOS
+`pytket-pysimplex` is compatible with Python versions 3.10 to 3.12 on Linux, MacOS
 and Windows. To install, run:
 
 ```shell

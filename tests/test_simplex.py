@@ -13,8 +13,8 @@
 # limitations under the License.
 
 import pytest
-from pytket.circuit import Bit, Circuit, OpType, Qubit
 
+from pytket.circuit import Bit, Circuit, OpType, Qubit
 from pytket.extensions.pysimplex import SimplexBackend
 
 
@@ -82,7 +82,7 @@ def test_counts() -> None:
     h = b.process_circuit(c, n_shots=10)
     r = b.get_result(h)
     counts = r.get_counts()
-    assert set(counts.keys()) <= set([(0, 0, 0), (1, 1, 1)])  # noqa: C405
+    assert set(counts.keys()) <= {(0, 0, 0), (1, 1, 1)}
     assert sum(counts.values()) == 10
 
 
